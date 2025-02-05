@@ -90,7 +90,7 @@ docker run --network=proselyte-backend-network --name backendapp5 -p 8095:8090 -
 той же сети:
 
 ```bash
-docker run --network=proselyte-backend-network --name nginx-server-2 -p 8060:8080 \
+docker run --network=proselyte-backend-network --name nginx-server -p 8070:8080 \
 -v /Users/proselyte/Documents/@proselyte/nginxcourse/proselyte-nginx-sources/nginx.conf:/etc/nginx/nginx.conf \
 -d nginx
 ```
